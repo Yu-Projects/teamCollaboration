@@ -18,14 +18,8 @@ while exit ~= -1
     if tempNewTask ~= 0
         tasks(end+1) = tempNewTask;
     end
-    
-    pTasks = ['tasks: ', num2str(tasks)];
-    pRobots = ['robots', num2str(robots)];
-    pTime = ['time: ', num2str(time)];
-    disp(pTasks)
-    disp(pRobots)
-    disp(pTime)
-    disp('Increasing time by 1 second.');
+    disp(tasks)
+    disp(task
     
     time = time + 1; % increment time
     
