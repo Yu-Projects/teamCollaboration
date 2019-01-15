@@ -1,0 +1,17 @@
+
+function [  ] = printAll(tasks, robots, time)
+%PRINTALL
+%   puts all data in a nice formate to print out
+
+lengthsInput = [length(tasks), length(robots)];
+maxLength = max(lengthsInput);
+
+
+M = zeros(nargin,maxLength);
+M(1,1:length(tasks)) = tasks;
+M(2,1:length(robots)) = robots;
+M(3,1:length(time)) = time;
+
+
+end
+
